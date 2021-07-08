@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Film Catalog</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="tab_1">Movies</string>
+    <string name="tab_2">TV Shows</string>
+    <string name="detail_movie">Detail Movie</string>
+    <string name="detail_tv">Detail Tv Show</string>
+    <string name="rating">Rating</string>
+    <string name="release_date">Release date</string>
+    <string name="overview">Overview</string>
+    <string name="favorite">Favorite</string>
+    <string name="toast_tambah">Berhasil menambahkan ke daftar favorit</string>
+    <string name="toast_hapus">Berhasil menghapus item dari daftar favorit</string>
+    <string name="title_activity_navigation">MainActivity</string>
+    <string name="newest">"Newest"</string>
+    <string name="oldest">Oldest</string>
+    <string name="random">Random</string>
+    <string name="kesalahan">Terjadi kesalahan</string>
+</resources>

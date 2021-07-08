@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="tab_1">Film</string>
+    <string name="tab_2">Acara TV</string>
+    <string name="rating">Penilaian</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="overview">Sinopsis</string>
+    <string name="detail_movie">Detail Film</string>
+    <string name="detail_tv">Detail Acara Tv</string>
+    <string name="favorite">Disukai</string>
+    <string name="toast_tambah">Added to favorite</string>
+    <string name="toast_hapus">Removed from favorite</string>
+    <string name="newest">Terbaru</string>
+    <string name="random">Acak</string>
+    <string name="oldest">Terlama</string>
+</resources>
