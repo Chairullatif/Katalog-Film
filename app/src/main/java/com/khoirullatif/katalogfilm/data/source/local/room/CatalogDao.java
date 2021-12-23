@@ -30,6 +30,9 @@ public interface CatalogDao {
     @Delete()
     void deleteFavoriteMovies(FavoriteMoviesEntity favoriteMoviesEntity);
 
+    @Query("DELETE FROM favoritemovies WHERE id = :id")
+    void deleteFavoriteMoviesById(String id);
+
     @RawQuery(observedEntities = FavoriteMoviesEntity.class)
     DataSource.Factory<Integer, FavoriteMoviesEntity> getFavoriteMovies(SupportSQLiteQuery query);
 
@@ -41,6 +44,9 @@ public interface CatalogDao {
 
     @Delete()
     void deleteFavoriteTvShows(FavoriteTvShowsEntity favoriteTvShowsEntity);
+
+    @Query("DELETE FROM favoritetvshows WHERE id = :id")
+    void deleteFavoriteTvShowsById(String id);
 
     @RawQuery(observedEntities = FavoriteTvShowsEntity.class)
     DataSource.Factory<Integer, FavoriteTvShowsEntity> getFavoriteTvShows(SupportSQLiteQuery query);

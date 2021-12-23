@@ -3,18 +3,25 @@
     <!-- TODO: Remove or change this placeholder text -->
 
     <string name="tab_1">Movies</string>
-    <string name="tab_2">TV Shows</string>
+    <string name="tab_2">Tv Shows</string>
     <string name="detail_movie">Detail Movie</string>
     <string name="detail_tv">Detail Tv Show</string>
     <string name="rating">Rating</string>
     <string name="release_date">Release date</string>
     <string name="overview">Overview</string>
     <string name="favorite">Favorite</string>
-    <string name="toast_tambah">Berhasil menambahkan ke daftar favorit</string>
-    <string name="toast_hapus">Berhasil menghapus item dari daftar favorit</string>
     <string name="title_activity_navigation">MainActivity</string>
     <string name="newest">"Newest"</string>
     <string name="oldest">Oldest</string>
     <string name="random">Random</string>
-    <string name="kesalahan">Terjadi kesalahan</string>
+    <string name="imovie">iMovie</string>
+    <string name="popular_movie">Popular Movies</string>
+    <string name="toast_tambah">Added to favorite</string>
+    <string name="toast_hapus">Removed from favorite</string>
+    <string name="belum_ada_yang_ditambahkan">No items added</string>
+    <string name="poster_picture">Poster Picture</string>
+    <string name="kesalahan">There is an error</string>
+    <string name="poster_image">Poster Image</string>
+    <string name="back_button">Back Button</string>
+    <string name="popular_tvshows">Popular Tv Shows</string>
 </resources>

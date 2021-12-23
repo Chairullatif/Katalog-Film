@@ -40,6 +40,10 @@ public class LocalDataSource {
         mCatalogDao.deleteFavoriteMovies(favoriteMoviesEntity);
     }
 
+    public void deleteFavoriteMoviesById(String id) {
+        mCatalogDao.deleteFavoriteMoviesById(id);
+    }
+
     public DataSource.Factory<Integer, FavoriteMoviesEntity> getFavoriteMovies(String sort) {
         SimpleSQLiteQuery query = SortUtils.getMoviesSortedQuery(sort);
         return mCatalogDao.getFavoriteMovies(query);
@@ -55,6 +59,10 @@ public class LocalDataSource {
 
     public void deleteFavoriteTvShows(final FavoriteTvShowsEntity favoriteTvShowsEntity) {
         mCatalogDao.deleteFavoriteTvShows(favoriteTvShowsEntity);
+    }
+
+    public void deleteFavoriteTvShowsById(String id) {
+        mCatalogDao.deleteFavoriteTvShowsById(id);
     }
 
     public DataSource.Factory<Integer, FavoriteTvShowsEntity> getFavoriteTvShows(String sort) {

@@ -9,7 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.DecodeFormat;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
+import com.bumptech.glide.request.RequestOptions;
+import com.bumptech.glide.request.target.Target;
 import com.khoirullatif.katalogfilm.R;
 import com.khoirullatif.katalogfilm.data.source.local.entity.MoviesEntity;
 import com.khoirullatif.katalogfilm.databinding.ItemMoviesBinding;
@@ -66,7 +69,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesView
                     .load(movies.getPoster())
                     .placeholder(R.drawable.ic_photo_load)
                     .error(R.drawable.ic_broken_image_error)
-                    .transform(new RoundedCorners(20))
+                    .transform(new RoundedCorners(30))
                     .into(binding.ivMovies);
 
             binding.tvTitleMovie.setText(movies.getTitle());

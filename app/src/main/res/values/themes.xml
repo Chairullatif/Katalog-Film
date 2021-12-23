@@ -2,12 +2,12 @@
     <!-- Base application theme. -->
     <style name="Theme.KatalogFilm" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/primaryColor</item>
-        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/black_primary</item>
+        <item name="colorPrimaryVariant">@color/black_primary</item>
+        <item name="colorOnPrimary">@color/black_primary</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/secondaryColor</item>
-        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorSecondaryVariant">@color/red</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
@@ -20,6 +20,23 @@
         <item name="android:fontFamily">@font/quamaine</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextTitleList">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TextSubtitleList">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/grey3</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
     <style name="lemonberryText">

@@ -19,6 +19,8 @@ public interface CatalogDataSource {
 
     void deleteFavoriteMovies(FavoriteMoviesEntity favoriteMoviesEntity);
 
+    void deleteFavoriteMoviewById(String id);
+
     LiveData<PagedList<FavoriteMoviesEntity>> getFavoriteMovies(String sort);
 
     LiveData<PagedList<FavoriteMoviesEntity>> findMovieById(String id);
@@ -26,6 +28,8 @@ public interface CatalogDataSource {
     void insertFavoriteTvShows(FavoriteTvShowsEntity favoriteTvShowsEntity);
 
     void deleteFavoriteTvShows(FavoriteTvShowsEntity favoriteTvShowsEntity);
+
+    void deleteFavoriteTvShowsById(String id);
 
     LiveData<PagedList<FavoriteTvShowsEntity>> getFavoriteTvShows(String sort);
 

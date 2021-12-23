@@ -65,6 +65,9 @@ public class FavoriteTvShowsFragment extends Fragment implements FavoriteTvShowF
 
             favoriteTvShowsViewModel.getFavoriteTvShows(SortUtils.NEWEST).observe(getViewLifecycleOwner(), favoriteTvShowsEnitities -> {
                 fragmentFavoriteTvShowsBinding.progressBar.setVisibility(View.GONE);
+                if (favoriteTvShowsEnitities.isEmpty()) {
+                    fragmentFavoriteTvShowsBinding.tvNotYetAddtv.setVisibility(View.VISIBLE);
+                }
                 adapter.submitList(favoriteTvShowsEnitities);
                 adapter.notifyDataSetChanged();
             });

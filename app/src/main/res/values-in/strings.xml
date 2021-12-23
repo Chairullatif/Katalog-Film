@@ -2,16 +2,25 @@
 <resources>
     <string name="app_name">Katalog Film</string>
     <string name="tab_1">Film</string>
-    <string name="tab_2">Acara TV</string>
+    <string name="tab_2">Series Tv</string>
     <string name="rating">Penilaian</string>
-    <string name="release_date">Tanggal Rilis</string>
+    <string name="release_date">Tanggal rilis</string>
     <string name="overview">Sinopsis</string>
     <string name="detail_movie">Detail Film</string>
-    <string name="detail_tv">Detail Acara Tv</string>
+    <string name="detail_tv">Detail Series Tv</string>
     <string name="favorite">Disukai</string>
-    <string name="toast_tambah">Added to favorite</string>
-    <string name="toast_hapus">Removed from favorite</string>
     <string name="newest">Terbaru</string>
     <string name="random">Acak</string>
     <string name="oldest">Terlama</string>
+    <string name="toast_tambah">Berhasil menambahkan ke daftar favorit</string>
+    <string name="toast_hapus">Berhasil menghapus item dari daftar favoritBerhasil menghapus item dari daftar favorit</string>
+    <string name="kesalahan">Terjadi kesalahan</string>
+    <string name="poster_picture">Poster Gambar</string>
+    <string name="imovie">iMovie</string>
+    <string name="popular_movie">Film Populer</string>
+    <string name="belum_ada_yang_ditambahkan">Belum ada yang ditambahkan</string>
+    <string name="title_activity_navigation">MainActivity</string>
+    <string name="poster_image">Poster Image</string>
+    <string name="back_button">Back Button</string>
+    <string name="popular_tvshows">Series Tv Populer</string>
 </resources>

@@ -62,6 +62,11 @@ public class CatalogRepository implements CatalogDataSource{
     }
 
     @Override
+    public void deleteFavoriteMoviewById(String id) {
+        appExecutors.diskIO().execute(() -> localDataSource.deleteFavoriteMoviesById(id));
+    }
+
+    @Override
     public LiveData<PagedList<FavoriteMoviesEntity>> getFavoriteMovies(String sort) {
         PagedList.Config config = new PagedList.Config.Builder()
                 .setEnablePlaceholders(false)
@@ -89,6 +94,11 @@ public class CatalogRepository implements CatalogDataSource{
     @Override
     public void deleteFavoriteTvShows(final FavoriteTvShowsEntity favoriteTvShowsEntity) {
         appExecutors.diskIO().execute(() -> localDataSource.deleteFavoriteTvShows(favoriteTvShowsEntity));
+    }
+
+    @Override
+    public void deleteFavoriteTvShowsById(String id) {
+        appExecutors.diskIO().execute(() -> localDataSource.deleteFavoriteTvShowsById(id));
     }
 
     @Override

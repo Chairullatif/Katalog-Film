@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.view.LayoutInflater;
@@ -67,7 +68,7 @@ public class MoviesFragment extends Fragment {
             });
 
             fragmentMoviesBinding.rvMovies.setHasFixedSize(true);
-            fragmentMoviesBinding.rvMovies.setLayoutManager(new LinearLayoutManager(getContext()));
+            fragmentMoviesBinding.rvMovies.setLayoutManager(new GridLayoutManager(getContext(),2));
             fragmentMoviesBinding.rvMovies.setAdapter(moviesAdapter);
 
             moviesAdapter.setOnItemClickCallback(this::showSelectedMovie);

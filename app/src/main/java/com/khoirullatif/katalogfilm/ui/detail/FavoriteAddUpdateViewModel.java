@@ -28,6 +28,10 @@ public class FavoriteAddUpdateViewModel extends ViewModel {
         catalogRepository.deleteFavoriteMovies(favoriteMoviesEntity);
     }
 
+    public void deleteFavoriteMoviesById(String id) {
+        catalogRepository.deleteFavoriteMoviewById(id);
+    }
+
     public void insertFavoriteTvShows(FavoriteTvShowsEntity favoriteTvShowsEntity) {
         catalogRepository.insertFavoriteTvShows(favoriteTvShowsEntity);
     }
@@ -38,5 +42,9 @@ public class FavoriteAddUpdateViewModel extends ViewModel {
 
     public void deleteFavoriteTvShows(FavoriteTvShowsEntity favoriteTvShowsEntity) {
         catalogRepository.deleteFavoriteTvShows(favoriteTvShowsEntity);
+    }
+
+    public void deleteFavoriteTvShowsById(String id) {
+        catalogRepository.deleteFavoriteTvShowsById(id);
     }
 }

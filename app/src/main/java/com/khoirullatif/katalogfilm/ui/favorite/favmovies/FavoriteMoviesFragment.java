@@ -60,6 +60,9 @@ public class FavoriteMoviesFragment extends Fragment implements FavoriteMoviesFr
             fragmentFavoriteMoviesBinding.progressBar.setVisibility(View.VISIBLE);
             favoriteMoviesViewModel.getFavoriteMovies(SortUtils.NEWEST).observe(getViewLifecycleOwner(), favoriteMoviesEntities -> {
                 fragmentFavoriteMoviesBinding.progressBar.setVisibility(View.GONE);
+                if (favoriteMoviesEntities.isEmpty()) {
+                    fragmentFavoriteMoviesBinding.tvNotYetAddmovie.setVisibility(View.VISIBLE);
+                }
                 adapter.submitList(favoriteMoviesEntities);
                 adapter.notifyDataSetChanged();
             });
