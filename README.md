@@ -2,7 +2,7 @@
 
 Aplikasi yang menampilkan daftar Film dan Tv Series populer
 
-<img src="https://github.com/Chairullatif/Picture/blob/main/Katalog-Film/katalog_film.gif?raw=true" width="280px"/>
+<img src="https://github.com/Chairullatif/Picture/blob/main/Katalog-Film/catalog_film.gif?raw=true" width="280px"/>
 
 ## Detail film
 
