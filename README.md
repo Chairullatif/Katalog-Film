@@ -7,7 +7,7 @@ Aplikasi yang menampilkan daftar Film dan Tv Series populer
 ## Detail film
 
 - Mempertahankan fitur sebelumnya.
-- Menerapkan ViewModel, LiveData dan Repository.
+- Menerapkan ViewModel, LiveData, Repository dan lain-lain.
 
 ## Daftar film
 
